@@ -77,41 +77,18 @@ http://localhost:3000/
 - `Funcionalidad 1`: Funcionalidad para listar los usuarios.
   </br>
   
-   URL:
-   ```
-   http://localhost:8000/api/users/
-   ```
-  
+  ![pagina](https://user-images.githubusercontent.com/52549697/228968287-eaa93865-c708-4a0b-8bb2-5c7390043b4a.jpg)
+
 - `Funcionalidad 2`: Funcionalidad para actualizar los usuarios.
   </br>
   
-   URL:
-   ```
-   http://localhost:8000/api/users/0163952897
-   ```
-   JSON:
-   ```
-   {
-    "id": "0163952897",
-    "name": "Pablo Malla",
-    "birth_date": "1997-03-28",
-    "country": 2
-   }
-   ```
+  ![pagina3](https://user-images.githubusercontent.com/52549697/228968318-4d37a4d1-8448-4d36-9839-7de2b3c97019.jpg)
+  
 - `Funcionalidad 3`: Funcionalidad para crear un nuevo usuario.
   </br>
   
-   URL:
-   ```
-   http://localhost:8000/api/users/nuevo
-   ```
-   JSON:
-   ```
-  {
-    "id": "0163952897",
-    "name": "Pablo Malla",
-    "birth_date": "1997-11-05",
-    "country": 1
-  }
-   ```
+  ![pagina2](https://user-images.githubusercontent.com/52549697/228968310-af08b468-3a50-4a5b-b082-673acf0cdb1d.jpg)
+  
+  
+  
 
