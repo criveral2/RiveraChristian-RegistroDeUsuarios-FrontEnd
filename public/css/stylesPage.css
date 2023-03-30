@@ -1,0 +1,29 @@
+body {
+    background-color: #ffffff;
+}
+
+.link-boton {
+    text-decoration: none;
+    color: #ffffff; /* Color que desees para el hipervínculo */
+
+}
+
+.users-tab {
+    width: 80%; /* establece el ancho del div */
+    margin: 0 auto; /* centra el div horizontalmente */
+    padding: 20px; /* agrega un margen alrededor del contenido del div */
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.3); /* agrega una sombra al div */
+    background-color: #fdfdfd; /* establece el color de fondo del div */
+}
+
+.posicion{
+    padding-left: 10%;
+    padding-top: 1%;
+}
+
+.titulos{
+    text-align: center;
+    font-family: Impact, sans-serif;
+    padding-top: 2%;
+}
+
