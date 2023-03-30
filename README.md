@@ -35,48 +35,45 @@ https://github.com/criveral2/RiveraChristian-RegistroDeUsuarios-BackEnd.git
 ```
 
 # Ejecutar en desarrollo
-## 1. Clonar el repositorio
-
+## 1. Tener instalado Node js
+## 2. Clonar el repositorio
 ```
 git clone https://github.com/criveral2/RiveraChristian-RegistroDeUsuarios-FrontEnd.git
 ```
 <br>
 
-## 2. Compilar el proyecto
+## 3. Compilar el sistema back end y mantenerlo levantado
+## 4. Compilar el proyecto
 
 <br>
 
 Dentro de nuestro proyecto clonado, posicionarce dentro del proyecto:
-**\RiveraChristian-RegistroDeUsuarios-BackEnd-master**
-verificaremos que se encuentren los archivos **seed.json, requirements.txt, .env**
-posterior mente abriremos nuestro terminal (cmd) en esa ruta y ejecutaremos:
+**\RiveraChristian-RegistroDeUsuarios-FrontEnd-master**
+verificaremos que se encuentren los archivos **package.json**
+posterior mente abriremos nuestro terminal (cmd) en la ruta actual y ejecutaremos:
 <br>
 
-Para instalar nuestras dependencias
+Para instalar las dependencias utilizadas por node js
 ```
-pip install -r requirements.txt
+npm install 
 ```
-
-Para construir nuestro esquema de base de datos
+o
 ```
-python manage.py makemigrations
-```
-
-Para migrar el esquema a la base de datos
-```
-python manage.py migrate
+npm i
 ```
 
-Para cargar la semilla que contiene nuestras nacionalidades dentro de la base de datos
+Para levantar la aplicacion
 ```
-python manage.py loaddata seed.json
+npm start
 ```
 
-Y finalmente para ejecutar la aplicacion 
+# Interfaces que consumirar nuestro servicio back end
+
+Para acceder a la interfaz ingresaremos a la url:
 ```
-py manage.py runserver
+http://localhost:3000/
 ```
-# Servicios api rest
+
 - `Funcionalidad 1`: Funcionalidad para listar los usuarios.
   </br>
   
@@ -117,12 +114,4 @@ py manage.py runserver
     "country": 1
   }
    ```
-- `Funcionalidad 4`: Funcionalidad para escoger nacionalidad.
-  </br>
-  
-   URL:
-   ```
-   http://localhost:8000/api/users/countries/
-   ```
-
 
